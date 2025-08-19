@@ -1,6 +1,6 @@
 # D4-Net: Detecting Deepfakes using a Dual-branch Deep Learner
 
-![Pipeline](Assets/Pipeline.png)
+![Pipeline](Assets/Architecture.pdf)
 
 ## 📌 Overview
 
@@ -64,29 +64,7 @@ cd D4-Net
 pip install -r requirements.txt
 ```
 
----
 
-## 📚 Usage
-
-### 1. Preprocess Data
-
-```bash
-python dataloaders.py --dataset <FF++/CeDF> --data_path <path_to_dataset>
-```
-
-### 2. Train the Model
-
-```bash
-python model.py --epochs 50 --batch_size 32 --lr 5e-4
-```
-
-### 3. Evaluate
-
-```bash
-python model.py --evaluate --weights saved_model.pth
-```
-
----
 
 ## 📑 Reference
 
@@ -96,6 +74,7 @@ If you use this work, please cite:
 Om Karmakar, Sk Mohiuddin, Asfak Ali, Dmitrii Kaplun, Ram Sarkar.
 D4-Net: Detecting Deepfakes using a Dual-branch Deep Learner.
 Proceedings of the 33rd ACM International Conference on Multimedia (MM '25), Dublin, Ireland.
+DOI : https://doi.org/10.1145/3746270.3760238
 ```
 
 ---
