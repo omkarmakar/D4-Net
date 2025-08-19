@@ -61,7 +61,6 @@ Assets/
 ```bash
 git clone https://github.com/omkarmakar/D4-Net.git
 cd D4-Net
-pip install -r requirements.txt
 ```
 
 
