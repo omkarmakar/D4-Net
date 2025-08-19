@@ -1,6 +1,6 @@
 # D4-Net: Detecting Deepfakes using a Dual-branch Deep Learner
 
-![Pipeline](Assets/Architecture.pdf)
+![Architecture](Assets/Architecture-1.png)
 
 ## 📌 Overview
 
